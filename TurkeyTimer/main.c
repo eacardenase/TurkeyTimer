@@ -7,8 +7,18 @@
 
 #include <stdio.h>
 
+void showCookTimeForTurkey(int pounds)
+{
+    int necessaryMinutes = 15 + 15 * pounds;
+    printf("Cook for %d minutes.\n", necessaryMinutes);
+}
+
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    int totalWeight = 10;
+    int gibletsWeight = 1;
+    int turkeyWeight = totalWeight - gibletsWeight;
+    
+    showCookTimeForTurkey(turkeyWeight);
+    
     return 0;
 }
