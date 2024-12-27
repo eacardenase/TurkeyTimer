@@ -20,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		208489022D1F455600E709B9 /* TurkeyTimer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TurkeyTimer; sourceTree = BUILT_PRODUCTS_DIR; };
+		2084890C2D1F455D00E709B9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -44,6 +45,7 @@
 		208488F92D1F455600E709B9 = {
 			isa = PBXGroup;
 			children = (
+				2084890C2D1F455D00E709B9 /* README.md */,
 				208489042D1F455600E709B9 /* TurkeyTimer */,
 				208489032D1F455600E709B9 /* Products */,
 			);
